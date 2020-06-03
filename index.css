@@ -20,11 +20,35 @@ vertical-align: baseline;
 box-sizing: border-box;
 max-width: 100%;
 border: solid grey 1px;
+font-size: 62.5%;
 }
 
 /*CSS reset above here*/
+h1{
+    font-family: 'Chelsea Market', cursive;
+    margin:0 10% 50px 10%;
+    width: 30%;
+    display: inline-block;
+    padding: 30px;
+    font-size: 4rem;
+    line-height: 1rem;
+    height: 1rem;
+
+}
+h2{
+    display:inline-block
+}
+header{
+    height:;
+}
+#headerimg{
+    width:15%;
+    border-radius: 50%;
+    margin: 5%;
+    display: inline-block
+}
 body{
-    font-family:;
+    font-family: 'roboto mono', monospace;
 }
 .button{
     color:white;
@@ -34,6 +58,7 @@ body{
     text-decoration: none;
     padding: 8px;
     text-align: center;
+    border-radius: 5px;
 }
 .plan{
     background-color: #FF764E;
@@ -46,4 +71,10 @@ body{
 }
 .stress{
     font-style: bold;
+}
+.section1{
+    background-color: #DDB9A3;
+}
+footer{
+    background-color:#F9E7DC;
 }
