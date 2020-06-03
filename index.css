@@ -26,26 +26,28 @@ font-size: 62.5%;
 /*CSS reset above here*/
 h1{
     font-family: 'Chelsea Market', cursive;
-    margin:0 10% 50px 10%;
+    margin:0 2% 2% 10%;
     width: 30%;
     display: inline-block;
-    padding: 30px;
+    padding: 15px;
     font-size: 4rem;
-    line-height: 1rem;
-    height: 1rem;
 
 }
 h2{
-    display:inline-block
-}
-header{
-    height:;
+    display:inline-block;
+    font-size: 2rem;
+    margin:0 2% 2% 30%;
+    text-align: center;
+    width: 30%;
 }
 #headerimg{
     width:15%;
     border-radius: 50%;
-    margin: 5%;
-    display: inline-block
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom:0;
+    margin-right: 0;
+    float:left;
 }
 body{
     font-family: 'roboto mono', monospace;
@@ -53,12 +55,13 @@ body{
 .button{
     color:white;
     display: inline-block;
-    width: 6%;
-    margin: 0 13%;
+    width: 7%;
+    margin: 1% 13%;
     text-decoration: none;
     padding: 8px;
     text-align: center;
     border-radius: 5px;
+    font-size: 1.4rem;
 }
 .plan{
     background-color: #FF764E;
